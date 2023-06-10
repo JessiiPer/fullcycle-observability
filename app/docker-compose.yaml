@@ -15,7 +15,6 @@ services:
         - "5432:5432"
       networks: 
         - observability
-
     pgadmin:
       image: dpage/pgadmin4
       container_name: pgadmin
@@ -27,7 +26,6 @@ services:
         - "9001:80"
       networks: 
         - observability
-
     app:
       build: .
       container_name: app_python
@@ -40,7 +38,13 @@ services:
         - db
       networks: 
         - observability
-
+    nginx:
+      build: ../nginx
+      container_name: nginx
+      ports:
+        - "8080:80"
+      networks:
+        - observability
 networks:
   observability:
     driver: bridge 

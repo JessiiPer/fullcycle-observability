@@ -1,5 +1,17 @@
 # Observability
 
+Course of Observability - Fullcycle 2.0
+
+# Summary
+
+* [Elastic Stack](#elasticstack)
+* [Logstash](#logstash)
+* [Beats](#beats)
+    * [Metricbeat](#metricbeatats)
+    * [Heartbeat](#heartbeat)
+* [APM](#apm)
+* [References](#references)
+
 ## Elastic Stack
 
 - The Elastic Stack is a group of open source products from Elastic designed to help users take data from any type of source and in any format, and search, analyze and visualize that data in real time.
@@ -40,16 +52,16 @@ Beats é uma plataforma gratuita e aberta para agentes de dados de finalidade ú
 
 Agente lightweight para dados de métricas
 
-Analitics Discovery
+**Analitics Discovery**
 ![metricbeat_discovery](https://github.com/JessiiPer/fullcycle-observability/blob/main/docs/uptime.png)
 
-Inventory Metrics
+**Inventory Metrics**
 ![metricbeat_inventory](https://github.com/JessiiPer/fullcycle-observability/blob/main/docs/metricbeat_inventory.png)
 
-Available dashboards
+**Available dashboards**
 ![metricbeat_available_dashboards](https://github.com/JessiiPer/fullcycle-observability/blob/main/docs/metricbeat_available_dashboards.png)
 
-Example - Docker dashboard
+**Example - Docker dashboard**
 ![metricbeat_docker_dashboard](https://github.com/JessiiPer/fullcycle-observability/blob/main/docs/metricbeat_docker_dashboard.png)
 
 ### **Heartbeat**
@@ -66,16 +78,20 @@ Elastic APM's main function is to monitor your application end-to-end, bringing 
 
 ![apm_transactions](https://github.com/JessiiPer/fullcycle-observability/blob/main/docs/apm_transactions.png)
 
-Backend Transations:
+**Backend Transations:**
 
 ![backend_transactions](https://github.com/JessiiPer/fullcycle-observability/blob/main/docs/backend_transactions.png)
 
-Frontend Transactions:
+**Frontend Transactions:**
 
 ![frontend_transactions](https://github.com/JessiiPer/fullcycle-observability/blob/main/docs/frontend_transactions.png)
 
-APM Logs
+### **APM Logs**
 
 It is possible create logs (debugs) and see in Elastic APM
 
 ![apm_logs](https://github.com/JessiiPer/fullcycle-observability/blob/main/docs/apm_logs.png)
+
+## References
+
+- [Elastic Stack](https://www.elastic.co/elastic-stack/)

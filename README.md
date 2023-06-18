@@ -72,7 +72,7 @@ Backend Transations:
 
 Frontend Transactions:
 
-![frontend_transactions](https://github.com/JessiiPer/fullcycle-observability/blob/main/docs/backend_transactions.png)
+![frontend_transactions](https://github.com/JessiiPer/fullcycle-observability/blob/main/docs/frontend_transactions.png)
 
 APM Logs
 

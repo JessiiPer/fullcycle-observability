@@ -78,4 +78,4 @@ APM Logs
 
 It is possible create logs (debugs) and see in Elastic APM
 
-![frontend_transactions](https://github.com/JessiiPer/fullcycle-observabilitys/blob/main/docs/apm_logs.png)
+![apm_logs](https://github.com/JessiiPer/fullcycle-observability/blob/main/docs/apm_logs.png)

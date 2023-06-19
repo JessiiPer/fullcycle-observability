@@ -4,11 +4,12 @@ Course of Observability - Fullcycle 2.0
 
 # Summary
 
-* [Elastic Stack](#elasticstack)
+* [Elastic Stack](#elastic-stack)
 * [Logstash](#logstash)
 * [Beats](#beats)
     * [Metricbeat](#metricbeatats)
     * [Heartbeat](#heartbeat)
+    * [Filebeat](#filetbeat)
 * [APM](#apm)
 * [References](#references)
 
@@ -69,6 +70,11 @@ Agente lightweight para dados de métricas
 Agente lightweight para monitoramento de tempo de atividade.
 
 ![uptime](https://github.com/JessiiPer/fullcycle-observability/blob/main/docs/uptime.png)
+
+
+### **Filebeat**
+
+Filebeat is a lightweight shipper for forwarding and centralizing log data. Installed as an agent on your servers, Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
 
 ## APM 
 

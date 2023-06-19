@@ -45,10 +45,11 @@ services:
       build: ../nginx
       container_name: nginx
       ports:
-        - "8280:80"
+        - "8080:80"
       networks: 
         - observability
 
 networks:
   observability:
-    external: true     
+    name: observability
+    driver: bridge    
